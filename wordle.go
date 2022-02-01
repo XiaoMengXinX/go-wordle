@@ -68,13 +68,10 @@ func init() {
 func main() {
 	fmt.Printf("%s\n\n", start)
 
-	err := newWordle(wordArr)
-	if err != nil {
-		log.Fatalln(err)
-	}
+	newWordle(wordArr)
 }
 
-func newWordle(words []string) (err error) {
+func newWordle(words []string) {
 	rand.Seed(time.Now().Unix())
 	word := words[rand.Intn(len(words))]
 
@@ -107,13 +104,13 @@ func newWordle(words []string) (err error) {
 
 		if guess == word {
 			fmt.Println("You win!")
-			return err
+			return
 		}
 	}
 
 	fmt.Println("You failed!")
 	fmt.Println("The answer is:", word)
-	return err
+	return
 }
 
 // determine if a word is in the word list
