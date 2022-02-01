@@ -112,6 +112,7 @@ func newWordle(words []string) (err error) {
 	}
 
 	fmt.Println("You failed!")
+	fmt.Println("The answer is:", word)
 	return err
 }
 
