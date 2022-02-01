@@ -6,7 +6,15 @@ The word dictionary is extracted from the [javascript file of the official wordl
 
 ### How to play
 
-Download the binary file from the release page or compile it from the source code:
+- Download the binary file from the release page
+
+- Or build the binary file through `go install`
+
+```shell  
+go install github.com/XiaoMengXinX/go-wordle@latest
+```
+
+- Or compile it from the source code:
 
 ```shell
 git clone https://github.com/XiaoMengXinX/go-wordle
