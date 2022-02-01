@@ -2,7 +2,7 @@
 
 This is a CLI version of popular game [Wordle](https://www.powerlanguage.co.uk/wordle/) powered by golang.
 
-![](https://raw.githubusercontent.com/XiaoMengXinX/go-wordle/master/img/play.gif)
+![](https://raw.githubusercontent.com/XiaoMengXinX/go-wordle/master/img/play.gif){:height="50%" width="50%"}
 
 The word dictionary is extracted from the [javascript file of the official wordle](https://www.powerlanguage.co.uk/wordle/main.e65ce0a5.js).
 
